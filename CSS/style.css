@@ -75,3 +75,91 @@ select{
     background-position-y: center;
 }
 
+footer{
+    background-color: rgba(128, 128, 128, 0.396);
+    text-align: center;
+}
+.picture-description{
+    width: 160px;
+    
+}
+
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 41px;
+    text-align: left;
+}
+
+.description p, .description h3{
+
+    margin-bottom: 20px;
+    
+}
+
+.description h3 {
+
+    font-size: 30px;
+}
+
+
+@media (max-width: 600px) {
+
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+    header{
+        float: none;
+        margin: auto;
+
+    }
+
+    .picture-description{
+      
+        margin: auto;
+        display: block;
+
+    }
+    .description{
+        margin: auto;
+        text-align: center;
+        
+    }
+    section{
+        background-repeat: no-repeat;
+        
+     }  
+    
+
+}
+
+@media (min-width: 1000px) {
+
+    .container{
+    
+        display: inline;
+        margin: auto;
+        text-align: center;
+    }
+     section{
+        background-size: auto;
+        
+     }
+
+     footer{
+         padding-bottom: auto;
+     }
+
+        
+            
+    
+
+
+
+}
+
+
+
+
