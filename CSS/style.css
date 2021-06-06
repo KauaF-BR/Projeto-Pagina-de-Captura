@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: rgb(140, 255, 0);  
+    background-color: rgba(7, 245, 213, 0.743);  
     text-align: center;
     color: white;
     padding: 11px;
@@ -29,5 +29,49 @@ body{
 }
 
 section{
-    color: white;
+    padding: 40px   ;
+    background-image: url(/Images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
+
+.formContainer{
+    max-width: 250px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.marginbotton{
+    margin-bottom: 25px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 8px;
+
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: rgba(7, 245, 213, 0.743);
+    font-weight: bolder;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(/Images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
